@@ -1,0 +1,25 @@
+{
+  "name": "rextasks",
+  "version": "1.0.0",
+  "description": "Tasks tracker microservice",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:docker": "docker build -t rex-tasks .",
+    "start": "docker run -p 8000:8000 -e PORT=8000 rex-tasks",
+    "test": "jest --watchAll  --detectOpenHandles"
+  },
+  "author": "Raymond Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/pino": "^7.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.1.0",
+    "pino-pretty": "^11.1.0"
+  }
+}
