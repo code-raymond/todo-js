@@ -11,6 +11,6 @@ A task logger intended to log the daily tasks of myself. It is intended to gener
 To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/username/my-awesome-project.git
-cd my-awesome-project
-pip install -r requirements.txt
+git clone https://github.com/code-raymond/rex.git
+cd rex
+npm i --save
