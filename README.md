@@ -1,6 +1,3 @@
-Certainly! Here’s the updated README for a GitHub repository named "Rex", changing the content to reflect a to-do keeper application:
-
----
 
 # Rex
 
