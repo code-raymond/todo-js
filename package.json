@@ -1,7 +1,7 @@
 {
   "name": "rextasks",
   "version": "1.0.0",
-  "description": "Tasks tracker microservice",
+  "description": "To Do tracker microservice",
   "main": "app.ts",
   "scripts": {
     "build": "tsc",
