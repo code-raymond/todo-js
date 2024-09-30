@@ -24,7 +24,8 @@
     "express": "^4.21.0",
     "pino": "^9.4.0",
     "pino-pretty": "^11.2.2",
-    "sequelize": "^6.37.3"
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@types/jest": "^29.5.13",
